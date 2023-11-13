@@ -10,7 +10,7 @@ public class Agfib {
 
             int previousNumber = 0;
             int nextNumber = 1;
-            int MAX = 20; // Sending 10 numbers
+            int MAX = 20; // Sending 20 numbers
 
             for (int i = 0; i < MAX; i++) {
                 out.writeBytes("fibo" + previousNumber + "\n");
